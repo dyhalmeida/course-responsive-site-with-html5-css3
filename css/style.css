@@ -24,6 +24,21 @@ section.section {
     height: 400px;
 }
 
+div.articles {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 24%;
+    height: 200px;
+    background-color: #5c5cb8;
+    margin-bottom: 3px;
+}
+
 footer.footer {
     height: 200px;
 }
