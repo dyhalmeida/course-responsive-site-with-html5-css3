@@ -21,7 +21,7 @@ div.banner {
 }
 
 section.section {
-    height: 400px;
+    height: auto;
 }
 
 div.articles {
@@ -41,4 +41,29 @@ article {
 
 footer.footer {
     height: 200px;
+}
+
+/* media queries */
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    article {
+        width: 49%;
+    }
+    div.container {
+        width: 85%;
+    }
+}
+
+/* phone */
+@media only screen and (max-width: 500px) {
+    article {
+        width: 100%;
+    }
+    div.container {
+        width: 95%;
+    }
+    div.articles {
+        flex-direction: column;
+    }    
 }
