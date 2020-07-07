@@ -28,3 +28,18 @@ nav {
     height: 300px;
     background-color: lightsteelblue;
 }
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+article {
+    width: 33%;
+    height: 200px;
+    background-color: steelblue;
+    margin-bottom: 3px;
+}
