@@ -61,3 +61,32 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+    .menu {
+        display: none;
+    }
+    #menu-footer {
+        display: none;
+    }
+    article {
+        width: 49%;
+    }
+}
+
+/* phone */
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+    .articles {
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+    }
+}
