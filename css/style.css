@@ -42,6 +42,13 @@ article {
     height: 200px;
     background-color: steelblue;
     margin-bottom: 3px;
+    transition: all 200ms ease-out;
+}
+
+article:hover {
+    box-shadow: 0px 0px 30px #000000;
+    transform: scale(1.2);
+    transition: all 200ms ease-in;
 }
 
 .paragraphs {
