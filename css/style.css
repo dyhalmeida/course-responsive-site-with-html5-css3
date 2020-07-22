@@ -107,9 +107,16 @@ figcaption a {
 .video {
     position: relative;
     padding-bottom: 50.25%;
+    margin-bottom: 50px;
 }
 
 .video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video video {
     position: absolute;
     width: 100%;
     height: 100%;
